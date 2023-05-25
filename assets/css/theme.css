@@ -141,24 +141,24 @@ article[data-theme="minimalist"] .clock .min:before {
 
 
 /*
-    Neon
+    Dark
 */
 
-article[data-theme="neon"] .clock {
-    background: url("../imgs/roman-neon.png") left top no-repeat;
+article[data-theme="dark"] .clock {
+    background: url("../imgs/dark.jpg") left top no-repeat;
     background-size: cover;
-    border: 10px solid rgba(255, 0, 242, 0.395);
+    border: 10px solid rgba(66, 227, 45, 0.395);
     box-shadow: 5px 5px 50px rgba(188, 4, 255, 0.285);
 }
-article[data-theme="neon"] .clock .hr:before,
-article[data-theme="neon"] .clock .min:before {
+article[data-theme="dark"] .clock .hr:before,
+article[data-theme="dark"] .clock .min:before {
     background-color: #000;
 }
-article[data-theme="neon"] .clock:before,
-article[data-theme="neon"] .clock .hr:before,
-article[data-theme="neon"] .clock .min:before,
-article[data-theme="neon"] .clock .sec:before {
-    background-color: rgb(255, 8, 239);
+article[data-theme="dark"] .clock:before,
+article[data-theme="dark"] .clock .hr:before,
+article[data-theme="dark"] .clock .min:before,
+article[data-theme="dark"] .clock .sec:before {
+    background-color: rgb(15, 137, 52);
     box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
 }
 
